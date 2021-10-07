@@ -16,11 +16,9 @@ export default function Home({products}) {
 
       <main className="max-w-screen-2xl mx-auto">
         {/* banner */}
-
         <Banner />
-
+        
         {/* product feed */}
-
         <ProductFeed products={products} />
       </main>
     </div>
