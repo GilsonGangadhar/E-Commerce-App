@@ -12,7 +12,7 @@ function Product({product}) {
 
     const dispatch = useDispatch()
 
-    const [rating] = useState(Math.floor(Math.random() * (MAX_RATING - MAX_RATING + 1)) + MIN_RATING)
+    const [rating] = useState(Math.floor(Math.random() * (MAX_RATING - MIN_RATING + 1)) + MIN_RATING)
 
     const [hasPrime] = useState(Math.random() < 0.5)
 
@@ -22,9 +22,10 @@ function Product({product}) {
             title: product.title,
             price : product.price, 
             description : product.description, 
+            rating : rating,
             category: product.category,
             image : product.image,
-            hasPrime : hasPrime
+            hasPrime : hasPrime,
         }
         //sending the product as an action to the redux store
         dispatch(addToBasket(item))
