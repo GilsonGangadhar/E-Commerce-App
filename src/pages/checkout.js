@@ -8,7 +8,7 @@ import {useSession} from "next-auth/client"
 import { loadStripe } from "@stripe/stripe-js";
 import axios from "axios";
 
-const stripePromise = loadStripe(process.env.STRIPE_PUBLIC_KEY)
+const stripePromise = loadStripe(process.env.stripe_public_key)
 
 function checkout() {
     const items = useSelector(selectItems)
@@ -19,7 +19,7 @@ function checkout() {
         const stripe = await stripePromise
 
         //calling backend to create a checkout session
-        const checkoutSession = await axios.post('/api/create-checkout-session', {
+        const checkoutSession = await axios.post("/api/create-checkout-session", {
             items : items,
             email : session.user.email
         })
