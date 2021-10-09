@@ -35,7 +35,7 @@ function checkout() {
     }
 
     return (
-        <div className="bg-gray-500">
+        <div className="bg-gray-100">
            <Header />
 
             <main className="lg:flex max-w-screen-3xl mx-auto">
