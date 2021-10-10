@@ -17,7 +17,7 @@ its build using :
 It's Main features : 
 
 1. User authentication via Gmail using firebase authentication, methods in next-auth package
-2. Products data obtained from FakeStoreApi("fakestoreapi.com/products") through axios package. 
+2. Products data obtained from FakeStoreApi("https://fakestoreapi.com/products") through axios package. 
 3. Creating backend and database using firebase to store user's gmail data(name & email) and user's order data. 
 4. Selecting products on the homepage and storing in the basket. In the basket, products can be again added and removed. 
 5. In the checkoutpage(where the basket is present), user can purchasing the product by pressing "checkout". User is redirected to stripe billing, where user can type neccessary data to purchase the products. 
