@@ -23,3 +23,4 @@ It's Main features :
 5. In the checkoutpage(where the basket is present), user can purchasing the product by pressing "checkout". User is redirected to stripe billing, where user can type neccessary data to purchase the products. 
 6. Once confirming the purchase, User is taken to success page to show the 'status' of the purchase.
 7. And then user can see the orders in the orders page. 
+8. Also made the app responsive for smartphones & tablets
