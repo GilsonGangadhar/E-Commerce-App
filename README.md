@@ -1,3 +1,5 @@
+Please watch the walkthrough-video before using the app (DEMO URL). And logged in and used, again click on the your "login name" to log-out. 
+
 E-Commerce-App walkthrough : https://www.awesomescreenshot.com/video/5565761?key=aa8c2746da222bc9888667ba433f4b34
 
 E-commerce-App demo URL : https://e-retail-app-dflf916xk-gilsongangadhar-gmailcom.vercel.app/
