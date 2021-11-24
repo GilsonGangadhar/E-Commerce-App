@@ -1,4 +1,4 @@
-Please watch the walkthrough-video before using the app (DEMO URL). And logged in and used, again click on the your "login name" to log-out. 
+Please watch the walkthrough-video before using the app (DEMO URL). And once logged in and used, again click on the your "login name" to log-out. 
 
 E-Commerce-App walkthrough : https://www.awesomescreenshot.com/video/5565761?key=aa8c2746da222bc9888667ba433f4b34
 
